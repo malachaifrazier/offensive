@@ -5,20 +5,20 @@ require_relative "lib/offensive/version"
 Gem::Specification.new do |spec|
   spec.name = "offensive"
   spec.version = Offensive::VERSION
-  spec.authors = ["TODO: Write your name"]
-  spec.email = ["TODO: Write your email address"]
+  spec.authors = ["Malachai Frazier"]
+  spec.email = ["mal@noonthirty.one"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "A gem for detecting offensive keywords and phrases in various languages."
+  spec.description = "OffensiveKeywords is a Ruby gem that helps developers filter and sanitize inputs by checking for offensive keywords and phrases. It supports multiple languages and is designed for efficiency and scalability using a combination of Bloom filters, Tries, and Hash Sets."
+  spec.homepage = "https://github.com/malachaifrazier/offensive"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://gitlab.com/malachaifrazier/offensive"
+  spec.metadata["changelog_uri"] = "https://gitlab.com/malachaifrazier/offensive/-/blob/main/CHANGELOG"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
